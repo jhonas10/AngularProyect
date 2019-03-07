@@ -11,6 +11,7 @@ import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { CoursesComponent } from './courses/courses.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { from } from 'rxjs';
 
 @NgModule({
@@ -24,6 +25,7 @@ import { from } from 'rxjs';
   ],
   imports: [
     BrowserModule,
+    NgbModule,
     APP_ROUTING
   ],
   providers: [],
