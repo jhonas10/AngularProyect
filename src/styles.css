@@ -7,6 +7,17 @@ footer {
     width: 100%;
 }
 
+.h1Style {
+    font-size: 30px;
+    letter-spacing: -0.6px;
+    word-spacing: 0.4px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
 .headerBackground {
     background: rgba(0, 14, 20, 1);
     background: -moz-linear-gradient(left, rgba(0, 14, 20, 1) 0%, rgba(32, 121, 153, 1) 29%, rgba(23, 201, 255, 1) 49%, rgba(53, 149, 184, 1) 76%, rgba(0, 67, 92, 1) 100%);
